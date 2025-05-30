@@ -131,3 +131,12 @@ my-app/
 ├── package.json
 └── .gitignore
 ```
+
+
+## Acknowledgments
+- Material-UI for the beautiful React components
+- Math.js for powerful mathematical computations
+- React LaTeX for formula rendering
+
+
+
