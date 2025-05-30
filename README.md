@@ -42,3 +42,92 @@ A comprehensive web application that serves as a smart calculator for mathematic
 1. Clone the repository:
 ```bash
 git clone <repository-url>
+```
+2. Navigate to the project directory
+
+```bash
+cd my-app
+```
+
+3. Install dependencies:
+Install Material UI and its dependencies:
+
+```bash
+npm install @mui/material @mui/icons-material @emotion/react @emotion/styled
+```
+Install React Router:
+
+```bash
+npm install react-router-dom
+```
+Install MathJS:
+```bash
+npm install mathjs
+```
+
+4. Start the development server:
+```bash
+npm start
+```
+
+
+5. Open `http://localhost:3000` to view it in your browser.
+
+
+6. Project Structure
+```bash
+
+my-app/
+├── public/
+│   └── index.html
+│
+├── src/
+│
+│   ├── components/
+│   │   ├── Calculator/
+│   │   │   ├── MathCalculator.js
+│   │   │   ├── PhysicsCalculator.js
+│   │   │   └── ChemistryCalculator.js
+│   │   ├── FormulaLibrary/
+│   │   │   ├── MathFormulas.js
+│   │   │   ├── PhysicsFormulas.js
+│   │   │   └── ChemistryFormulas.js
+│   │   ├── UnitConverter/
+│   │   │   └── UnitConverter.js
+│   │   └── Common/
+│   │       ├── Header.js
+│   │       ├── Navigation.js
+│   │       └── StepByStepSolution.js
+│
+│   ├── pages/
+│   │   ├── Home.js
+│   │   ├── CalculatorPage.js
+│   │   ├── FormulasPage.js
+│   │   ├── ConverterPage.js
+│   │   ├── PhysicsPage.js
+│   │   └── ChemistryPage.js
+│
+│   ├── services/
+│   │   ├── mathService.js
+│   │   ├── physicsService.js
+│   │   └── chemistryService.js
+│
+│   ├── utils/
+│   │   ├── formulaUtils.js
+│   │   └── unitConversionUtils.js
+│
+│   ├── constants/
+│   │   ├── units.js
+│   │   └── formulaNames.js
+│
+│   ├── styles/
+│   │   ├── App.css
+│   │   └── Calculator.css
+│
+│   ├── App.js
+│   └── index.js
+│
+├── README.md
+├── package.json
+└── .gitignore
+```
