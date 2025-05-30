@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Smart Science Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A comprehensive web application that serves as a smart calculator for mathematics, physics, and chemistry problems. This application provides step-by-step solutions, formula libraries, and unit conversions to help students and professionals solve scientific problems efficiently.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### 1. Smart Calculators
+- **Math Calculator**: Solves algebraic expressions, calculus problems, and geometric calculations
+- **Physics Calculator**: Handles mechanics, energy, waves, thermodynamics, and electricity problems
+- **Chemistry Calculator**: Balances chemical equations and solves stoichiometry problems
 
-### `npm start`
+### 2. Formula Libraries
+- **Mathematics**: Comprehensive collection of formulas for algebra, calculus, geometry, trigonometry, and statistics
+- **Physics**: Formulas covering mechanics, energy, waves, thermodynamics, and electricity
+- **Chemistry**: Formulas for stoichiometry, thermodynamics, kinetics, equilibrium, and electrochemistry
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 3. Unit Converter
+- Convert between different units of measurement:
+  - Length (m, km, cm, mm, mi, yd, ft, in)
+  - Mass (kg, g, mg, lb, oz)
+  - Temperature (°C, °F, K)
+  - Time (s, min, h, d)
+  - Volume (L, mL, m³, gal, fl oz)
+  - Energy (J, kJ, cal, kcal, eV)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 4. Step-by-Step Solutions
+- Detailed explanations for problem-solving steps
+- Visual representations where applicable
+- Practice problems with solutions
 
-### `npm test`
+## Technology Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend**: React.js with Material-UI
+- **Key Libraries**:
+  - `@mui/material`: UI components
+  - `mathjs`: Mathematical computations
+  - `react-latex`: LaTeX rendering
+  - `axios`: HTTP client
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository:
+```bash
+git clone <repository-url>
